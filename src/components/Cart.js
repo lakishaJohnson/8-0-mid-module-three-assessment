@@ -11,12 +11,15 @@ class Cart extends React.Component {
   render() {
     return (
       <div>
-        <li>
+            <h2>Cart</h2>
+            
+        
           <span>{(this.state.product.name, this.state.product.price)}</span>
           <h2>Subtotal: {this.props.price}</h2>
           <h2>Tax: {}</h2>
           <h2>Total: {}</h2>
-        </li>
+        
+        
       </div>
     );
   }
